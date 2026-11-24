@@ -22,11 +22,11 @@ sono-conforto/
 
 ## Executar localmente
 
-Abra a pasta `sono-conforto` no VS Code. Com Python instalado, execute `python -m http.server 8000` dentro dessa pasta e acesse `http://localhost:8000/` no navegador. No Windows, `py -m http.server 8000` é uma alternativa. Também é possível usar Live Server no VS Code. Prefira um servidor HTTP, pois o comportamento do Local Storage em URLs `file:` não é garantido.
+Abra a pasta do projeto no Visual Studio Code e execute o arquivo index.html utilizando a extensão Live Server.
 
 ## Administração
 
-Acesse Admin no menu. Cadastre nome e e-mail fictícios; a lista exibe nome, e-mail e data. Os registros ficam em uma única chave `sonoConfortoUsuarios` com objeto JSON contendo a propriedade `usuarios`. Pesquise por nome ou e-mail, limpe os campos, exclua um registro ou confirme a exclusão de todos. A busca não altera o armazenamento. As credenciais da página de cadastro/login não são armazenadas nem enviadas; os campos não possuem atributo `name`, portanto o envio apenas navega para a página prevista.
+A página administrativa permite cadastrar, pesquisar e excluir usuários. Os dados são armazenados no Local Storage do navegador utilizando JSON.
 
 ## Tecnologias
 
