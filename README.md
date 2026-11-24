@@ -54,7 +54,8 @@ sono-conforto/
 ├── css/
 │   └── style.css
 ├── js/
-│   └── admin.js
+│   ├── admin.js
+│   └── cadastro.js
 ├── img/
 ├── CONTEXTO_PROJETO.md
 └── README.md
