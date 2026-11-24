@@ -36,7 +36,7 @@ Cinco documentos HTML, uma folha CSS, um script JS, oito SVG e dois arquivos Mar
 | cadastro.html | Formulário `cadastro-form` com nome, e-mail, telefone, nascimento e senha; validações HTML e destino `login.html`. Campos não possuem `name`, evitando serialização. |
 | login.html | Campos e-mail e senha; formulário demonstra navegação para o início sem autenticar. |
 | admin.html | Formulário `admin-form`, busca `pesquisa`, lista `lista-usuarios`, mensagens e botões de limpar e excluir. Única página que importa `js/admin.js`. |
-| curriculo.html | Currículo profissional do desenvolvedor, com formação, experiências, competências, cursos, certificações e idiomas; versão pública sem telefone e e-mail pessoais. |
+| curriculo.html | Nome do desenvolvedor, informações acadêmicas iniciais e competências do projeto; precisa de complementação pelo autor. |
 | css/style.css | Identidade visual, layout, responsividade, estados de foco e componentes. |
 | js/admin.js | Validação, atualização de registros, persistência, renderização e eventos da área Admin. |
 | img/*.svg | Banner, quatro ilustrações de colchões e três ícones locais. |
@@ -86,7 +86,7 @@ admin.html ── js/admin.js ── DOM + Local Storage
 Arquitetura estática executada no navegador (HTML, CSS e JavaScript nativo, SVG e JSON). Não há servidor de aplicação, bibliotecas, framework, CDN, fontes externas ou API comercial. O servidor HTTP estático é suficiente para hospedar os arquivos.
 
 ## 9. Manutenção e limitações
-Preservar os IDs usados pelo script, a chave e o formato JSON, os links relativos e o padrão compartilhado de menu/rodapé. Não utilizar o formulário com dados reais: Local Storage não é adequado a dados sensíveis, a área Admin não é protegida e não há autenticação. Alterações simultâneas em várias abas não são sincronizadas. O site não demonstra pagamento, carrinho, estoque, preços reais, atendimento ou login efetivo. As medidas, a oferta e o endereço de contato são ilustrativos. O currículo apresenta informações profissionais fornecidas pelo autor, sem telefone ou e-mail pessoais. A URL publicada, resultados dos validadores oficiais e o vídeo ainda dependem de execução externa.
+Preservar os IDs usados pelo script, a chave e o formato JSON, os links relativos e o padrão compartilhado de menu/rodapé. Não utilizar o formulário com dados reais: Local Storage não é adequado a dados sensíveis, a área Admin não é protegida e não há autenticação. Alterações simultâneas em várias abas não são sincronizadas. O site não demonstra pagamento, carrinho, estoque, preços reais, atendimento ou login efetivo. As medidas, a oferta e o endereço de contato são ilustrativos. O currículo é inicial; dados reais adicionais do autor não foram fornecidos. A URL publicada, resultados dos validadores oficiais e o vídeo ainda dependem de execução externa.
 
 ## 10. Conclusão
 O código apresenta um catálogo estático responsivo e uma área administrativa com inclusão, pesquisa, limpeza e exclusão de registros persistidos no navegador. As páginas HTML compartilham estilos e ícones locais; a lógica administrativa concentra-se em `admin.js`. A documentação não presume serviços ou funcionalidades que não existem no código.
