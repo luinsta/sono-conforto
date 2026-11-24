@@ -34,4 +34,8 @@ HTML5, CSS3 (Grid, Flexbox e media queries), JavaScript nativo, APIs DOM e Web S
 
 ## Publicação
 
-Publique o conteúdo desta pasta na raiz de um repositório GitHub e configure GitHub Pages para a branch `main`, pasta `/ (root)`. Após publicar, acrescente o endereço real aqui. Não há URL de publicação registrada nesta versão.
+O projeto está publicado no GitHub Pages e pode
+ser acessado pelo endereço:
+
+- [Acessar o website Sono & Conforto](https://luinsta.github.io/sono-conforto/)
+- [Repositório do projeto](https://github.com/luinsta/sono-conforto)
